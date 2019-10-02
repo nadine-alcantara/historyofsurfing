@@ -1,20 +1,24 @@
 body{
   background-image: url("https://www.surfertoday.com/images/stories/surfingsport.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-size: 100%;
-  font-family: "Comic Sans MS";
+  font-family: 'Knewave';
+  font-size: medium;
 }
 
 h1 {
   text-align: center;
-  top: 50%;
+  margin-top: 100px;
   color: maroon;
+  font-family: 'Mansalva';
 }
 
 h2 {
   text-align: center;
   top: 75%;
   color: maroon;
+  font-family: 'Niconne';
+
 }
 
 p {
@@ -24,4 +28,19 @@ p {
 img {
   float: bottom;
   width: 200px;
+}
+
+.highlight {
+  background-color: rgba(255,255,255,0.5);
+}
+
+.pics {
+  display: inline;
+}
+.text {
+  display: inline;
+  position: absolute;
+  width: 200px;
+  margin-top: 40px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
